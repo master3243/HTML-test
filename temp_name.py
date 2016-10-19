@@ -97,7 +97,7 @@ background-color: #ffffff;
 '''
     table_start = '''<table class="one">
     <div class="container">
-    <p>{}</p>
+    {}
     </div><tr>
     <th>Anime Title</th>
     <th>Type</th>
@@ -115,7 +115,12 @@ background-color: #ffffff;
     fo = open('result.html', 'w', encoding='utf-8')
     fo.write(before)
 
-    fo.write(table_start.format('SHARED ANIME LIST :'))
+    fo.write(table_start.format('''
+    <p>Made by: Master3243</p>
+    <p>-</p>
+    <p>USER A: master3243</p>
+    <p>USER B: otakuasim</p>
+    <p>SHARED ANIME LIST :</p>'''))
     for anime in shared:
         cell1 = anime['series_title']
         cell2 = mal.get_series_type(anime['series_type'])
