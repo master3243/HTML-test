@@ -30,8 +30,9 @@ def start():
     user_a_exclusive = [x for x in user_a if x['series_title'] not in [y['series_title'] for y in user_b]]
     user_b_exclusive = [x for x in user_b if x['series_title'] not in [y['series_title'] for y in user_a]]
 
-    write_html(shared, user_a_exclusive, user_b_exclusive)
-    os.system("start "+'result.html')
+    file_name = 'result3.html'
+    write_html(shared, user_a_exclusive, user_b_exclusive, file_name)
+    os.system("start "+ file_name)
 
 
 def get_shared(user_a, list_b_anime):
@@ -52,7 +53,7 @@ def get_shared(user_a, list_b_anime):
 
 
 
-def write_html(shared, user_a_list, user_b_list):
+def write_html(shared, user_a_list, user_b_list, file_name):
     before = '''<style type="text/css">
 
 table {
@@ -112,15 +113,15 @@ background-color: #ffffff;
     <td>{}</td>
     </tr>'''
 
-    fo = open('result3.html', 'w', encoding='utf-8')
+    fo = open(file_name, 'w', encoding='utf-8')
     fo.write(before)
 
     fo.write(table_start.format('''
     <p>Made by: Master3243</p>
     <p>-</p>
-    <p>USER A: master3243</p>
-    <p>USER B: otakuasim</p>
-    <p>SHARED ANIME LIST :</p>'''))
+    <p>USER A: {}</p>
+    <p>USER B: {}</p>
+    <p>SHARED ANIME LIST :</p>'''.format(e1.get(), e2.get())))
     for anime in shared:
         cell1 = anime['series_title']
         cell2 = mal.get_series_type(anime['series_type'])

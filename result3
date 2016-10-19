@@ -44,207 +44,14 @@ background-color: #ffffff;
     
     <p>Made by: Master3243</p>
     <p>-</p>
-    <p>USER A: urahara-kisukee</p>
-    <p>USER B: otakuasim</p>
+    <p>USER A: otakuasim</p>
+    <p>USER B: urahara_kisukee)</p>
     <p>SHARED ANIME LIST :</p>
     </div><tr>
     <th>Anime Title</th>
     <th>Type</th>
     <th>Episodes</th>
     <th>Score</th>
-    </tr><tr>
-    <td>Sen to Chihiro no Kamikakushi</td>
-    <td>Movie</td>
-    <td>1|1 / 1</td>
-    <td>7|7</td>
-    </tr><tr>
-    <td>Detective Conan Movie 02: The Fourteenth Target</td>
-    <td>Movie</td>
-    <td>1|1 / 1</td>
-    <td>7|7</td>
-    </tr><tr>
-    <td>Sennen Joyuu</td>
-    <td>Movie</td>
-    <td>1|1 / 1</td>
-    <td>7|7</td>
-    </tr><tr>
-    <td>Bleach Movie 3: Fade to Black - Kimi no Na wo Yobu</td>
-    <td>Movie</td>
-    <td>1|1 / 1</td>
-    <td>7|8</td>
-    </tr><tr>
-    <td>Darker than Black: Ryuusei no Gemini</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>7|8</td>
-    </tr><tr>
-    <td>Deadman Wonderland</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>8|8</td>
-    </tr><tr>
-    <td>Hakuouki</td>
-    <td>TV</td>
-    <td>4|12 / 12</td>
-    <td>0|7</td>
-    </tr><tr>
-    <td>Mahou Shoujo Madoka★Magica</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>7|9</td>
-    </tr><tr>
-    <td>Fate/Zero</td>
-    <td>TV</td>
-    <td>13|13 / 13</td>
-    <td>9|8</td>
-    </tr><tr>
-    <td>Another</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>7|8</td>
-    </tr><tr>
-    <td>Brave 10</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>5|6</td>
-    </tr><tr>
-    <td>Fate/Zero 2nd Season</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>9|9</td>
-    </tr><tr>
-    <td>Zetman</td>
-    <td>TV</td>
-    <td>13|13 / 13</td>
-    <td>7|7</td>
-    </tr><tr>
-    <td>Jormungand</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>7|7</td>
-    </tr><tr>
-    <td>Hataraku Maou-sama!</td>
-    <td>TV</td>
-    <td>13|13 / 13</td>
-    <td>8|8</td>
-    </tr><tr>
-    <td>Devil Survivor 2 The Animation</td>
-    <td>TV</td>
-    <td>4|13 / 13</td>
-    <td>4|7</td>
-    </tr><tr>
-    <td>Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation</td>
-    <td>TV</td>
-    <td>6|13 / 13</td>
-    <td>4|7</td>
-    </tr><tr>
-    <td>Servant x Service</td>
-    <td>TV</td>
-    <td>13|13 / 13</td>
-    <td>4|7</td>
-    </tr><tr>
-    <td>Akuma no Riddle</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>6|7</td>
-    </tr><tr>
-    <td>No Game No Life</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>8|8</td>
-    </tr><tr>
-    <td>Black Bullet</td>
-    <td>TV</td>
-    <td>13|13 / 13</td>
-    <td>6|7</td>
-    </tr><tr>
-    <td>Tokyo Ghoul</td>
-    <td>TV</td>
-    <td>9|12 / 12</td>
-    <td>7|8</td>
-    </tr><tr>
-    <td>Break Blade</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>7|8</td>
-    </tr><tr>
-    <td>Blade &amp; Soul</td>
-    <td>TV</td>
-    <td>13|13 / 13</td>
-    <td>5|5</td>
-    </tr><tr>
-    <td>Owari no Seraph</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>7|8</td>
-    </tr><tr>
-    <td>Death Parade</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>8|8</td>
-    </tr><tr>
-    <td>One Punch Man</td>
-    <td>TV</td>
-    <td>12|12 / 12</td>
-    <td>8|8</td>
-    </tr><tr>
-    <td>Boku dake ga Inai Machi</td>
-    <td>TV</td>
-    <td>12|1 / 12</td>
-    <td>8|8</td>
-    </tr><tr>
-    <td>Boku no Hero Academia</td>
-    <td>TV</td>
-    <td>13|13 / 13</td>
-    <td>0|8</td>
-    </tr><tr>
-    <td>Sakamoto desu ga?</td>
-    <td>TV</td>
-    <td>12|0 / 12</td>
-    <td>0|8</td>
-    </tr></table><table class="one">
-    <div class="container">
-    urahara-kisukee'S EXCLUSIVE ANIME LIST :
-    </div><tr>
-    <th>Anime Title</th>
-    <th>Type</th>
-    <th>Episodes</th>
-    <th>Score</th>
-    </tr><tr>
-    <td>Hellsing Ultimate</td>
-    <td>OVA</td>
-    <td>10 / 10</td>
-    <td>8</td>
-    </tr><tr>
-    <td>Black Lagoon</td>
-    <td>TV</td>
-    <td>7 / 12</td>
-    <td>6</td>
-    </tr><tr>
-    <td>Sidonia no Kishi</td>
-    <td>TV</td>
-    <td>2 / 12</td>
-    <td>0</td>
-    </tr><tr>
-    <td>Fate/stay night: Unlimited Blade Works</td>
-    <td>TV</td>
-    <td>12 / 12</td>
-    <td>8</td>
-    </tr><tr>
-    <td>Koutetsujou no Kabaneri</td>
-    <td>TV</td>
-    <td>0 / 12</td>
-    <td>0</td>
-    </tr><tr>
-    <td>Fate/stay night: Unlimited Blade Works 2nd Season</td>
-    <td>TV</td>
-    <td>13 / 13</td>
-    <td>8</td>
-    </tr><tr>
-    <td>Hai to Gensou no Grimgar</td>
-    <td>TV</td>
-    <td>12 / 12</td>
-    <td>7</td>
     </tr></table><table class="one">
     <div class="container">
     otakuasim'S EXCLUSIVE ANIME LIST :
@@ -263,6 +70,11 @@ background-color: #ffffff;
     <td>TV</td>
     <td>13 / 13</td>
     <td>8</td>
+    </tr><tr>
+    <td>Sen to Chihiro no Kamikakushi</td>
+    <td>Movie</td>
+    <td>1 / 1</td>
+    <td>7</td>
     </tr><tr>
     <td>Elfen Lied</td>
     <td>TV</td>
@@ -304,6 +116,11 @@ background-color: #ffffff;
     <td>1 / 1</td>
     <td>7</td>
     </tr><tr>
+    <td>Detective Conan Movie 02: The Fourteenth Target</td>
+    <td>Movie</td>
+    <td>1 / 1</td>
+    <td>7</td>
+    </tr><tr>
     <td>Detective Conan Movie 03: The Last Wizard of the Century</td>
     <td>Movie</td>
     <td>1 / 1</td>
@@ -333,6 +150,11 @@ background-color: #ffffff;
     <td>Speacial</td>
     <td>1 / 1</td>
     <td>0</td>
+    </tr><tr>
+    <td>Sennen Joyuu</td>
+    <td>Movie</td>
+    <td>1 / 1</td>
+    <td>7</td>
     </tr><tr>
     <td>Afro Samurai</td>
     <td>TV</td>
@@ -494,6 +316,11 @@ background-color: #ffffff;
     <td>11 / 11</td>
     <td>8</td>
     </tr><tr>
+    <td>Bleach Movie 3: Fade to Black - Kimi no Na wo Yobu</td>
+    <td>Movie</td>
+    <td>1 / 1</td>
+    <td>8</td>
+    </tr><tr>
     <td>Kara no Kyoukai 6: Boukyaku Rokuon</td>
     <td>Movie</td>
     <td>1 / 1</td>
@@ -574,6 +401,11 @@ background-color: #ffffff;
     <td>13 / 13</td>
     <td>8</td>
     </tr><tr>
+    <td>Darker than Black: Ryuusei no Gemini</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
     <td>Katanagatari</td>
     <td>TV</td>
     <td>12 / 12</td>
@@ -590,6 +422,16 @@ background-color: #ffffff;
     <td>7</td>
     </tr><tr>
     <td>Kuroshitsuji II</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>7</td>
+    </tr><tr>
+    <td>Deadman Wonderland</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
+    <td>Hakuouki</td>
     <td>TV</td>
     <td>12 / 12</td>
     <td>7</td>
@@ -719,6 +561,11 @@ background-color: #ffffff;
     <td>1 / 1</td>
     <td>9</td>
     </tr><tr>
+    <td>Mahou Shoujo Madoka★Magica</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>9</td>
+    </tr><tr>
     <td>Hoshi wo Ou Kodomo</td>
     <td>Movie</td>
     <td>1 / 1</td>
@@ -742,6 +589,11 @@ background-color: #ffffff;
     <td>Kami nomi zo Shiru Sekai II</td>
     <td>TV</td>
     <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
+    <td>Fate/Zero</td>
+    <td>TV</td>
+    <td>13 / 13</td>
     <td>8</td>
     </tr><tr>
     <td>Kimi ni Todoke 2nd Season: Kataomoi</td>
@@ -814,10 +666,20 @@ background-color: #ffffff;
     <td>12 / 12</td>
     <td>7</td>
     </tr><tr>
+    <td>Another</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
     <td>Usagi Drop Specials</td>
     <td>Speacial</td>
     <td>4 / 4</td>
     <td>0</td>
+    </tr><tr>
+    <td>Brave 10</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>6</td>
     </tr><tr>
     <td>Black★Rock Shooter (TV)</td>
     <td>TV</td>
@@ -854,9 +716,19 @@ background-color: #ffffff;
     <td>13 / 13</td>
     <td>8</td>
     </tr><tr>
+    <td>Fate/Zero 2nd Season</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>9</td>
+    </tr><tr>
     <td>Lupin III: Chi no Kokuin - Eien no Mermaid</td>
     <td>Speacial</td>
     <td>1 / 1</td>
+    <td>7</td>
+    </tr><tr>
+    <td>Zetman</td>
+    <td>TV</td>
+    <td>13 / 13</td>
     <td>7</td>
     </tr><tr>
     <td>Danshi Koukousei no Nichijou</td>
@@ -882,6 +754,11 @@ background-color: #ffffff;
     <td>Ookami Kodomo no Ame to Yuki</td>
     <td>Movie</td>
     <td>1 / 1</td>
+    <td>7</td>
+    </tr><tr>
+    <td>Jormungand</td>
+    <td>TV</td>
+    <td>12 / 12</td>
     <td>7</td>
     </tr><tr>
     <td>Nazo no Kanojo X</td>
@@ -1009,6 +886,11 @@ background-color: #ffffff;
     <td>4 / 4</td>
     <td>7</td>
     </tr><tr>
+    <td>Hataraku Maou-sama!</td>
+    <td>TV</td>
+    <td>13 / 13</td>
+    <td>8</td>
+    </tr><tr>
     <td>Kamisama no Inai Nichiyoubi</td>
     <td>TV</td>
     <td>12 / 12</td>
@@ -1029,10 +911,20 @@ background-color: #ffffff;
     <td>12 / 12</td>
     <td>5</td>
     </tr><tr>
+    <td>Devil Survivor 2 The Animation</td>
+    <td>TV</td>
+    <td>13 / 13</td>
+    <td>7</td>
+    </tr><tr>
     <td>Hal</td>
     <td>Movie</td>
     <td>1 / 1</td>
     <td>6</td>
+    </tr><tr>
+    <td>Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation</td>
+    <td>TV</td>
+    <td>13 / 13</td>
+    <td>7</td>
     </tr><tr>
     <td>Kakumeiki Valvrave</td>
     <td>TV</td>
@@ -1072,6 +964,11 @@ background-color: #ffffff;
     <td>Non Non Biyori</td>
     <td>TV</td>
     <td>12 / 12</td>
+    <td>7</td>
+    </tr><tr>
+    <td>Servant x Service</td>
+    <td>TV</td>
+    <td>13 / 13</td>
     <td>7</td>
     </tr><tr>
     <td>Kyoukai no Kanata</td>
@@ -1154,10 +1051,20 @@ background-color: #ffffff;
     <td>4 / 9</td>
     <td>0</td>
     </tr><tr>
+    <td>Akuma no Riddle</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>7</td>
+    </tr><tr>
     <td>Mahou Sensou</td>
     <td>TV</td>
     <td>12 / 12</td>
     <td>2</td>
+    </tr><tr>
+    <td>No Game No Life</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
     </tr><tr>
     <td>Nobunagun</td>
     <td>TV</td>
@@ -1218,6 +1125,11 @@ background-color: #ffffff;
     <td>TV</td>
     <td>12 / 12</td>
     <td>8</td>
+    </tr><tr>
+    <td>Black Bullet</td>
+    <td>TV</td>
+    <td>13 / 13</td>
+    <td>7</td>
     </tr><tr>
     <td>Hitsugi no Chaika</td>
     <td>TV</td>
@@ -1319,6 +1231,21 @@ background-color: #ffffff;
     <td>1 / 12</td>
     <td>4</td>
     </tr><tr>
+    <td>Tokyo Ghoul</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
+    <td>Break Blade</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
+    <td>Blade &amp; Soul</td>
+    <td>TV</td>
+    <td>13 / 13</td>
+    <td>5</td>
+    </tr><tr>
     <td>Terra Formars</td>
     <td>TV</td>
     <td>13 / 13</td>
@@ -1419,6 +1346,11 @@ background-color: #ffffff;
     <td>12 / 12</td>
     <td>8</td>
     </tr><tr>
+    <td>Owari no Seraph</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
     <td>Aldnoah.Zero 2nd Season</td>
     <td>TV</td>
     <td>12 / 12</td>
@@ -1433,6 +1365,11 @@ background-color: #ffffff;
     <td>TV</td>
     <td>13 / 13</td>
     <td>7</td>
+    </tr><tr>
+    <td>Death Parade</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
     </tr><tr>
     <td>Ranpo Kitan: Game of Laplace</td>
     <td>TV</td>
@@ -1484,6 +1421,11 @@ background-color: #ffffff;
     <td>12 / 12</td>
     <td>8</td>
     </tr><tr>
+    <td>One Punch Man</td>
+    <td>TV</td>
+    <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
     <td>Noragami Aragoto</td>
     <td>TV</td>
     <td>13 / 13</td>
@@ -1498,6 +1440,11 @@ background-color: #ffffff;
     <td>TV</td>
     <td>12 / 12</td>
     <td>7</td>
+    </tr><tr>
+    <td>Boku dake ga Inai Machi</td>
+    <td>TV</td>
+    <td>1 / 12</td>
+    <td>8</td>
     </tr><tr>
     <td>Akagami no Shirayuki-hime 2nd Season</td>
     <td>TV</td>
@@ -1539,9 +1486,19 @@ background-color: #ffffff;
     <td>10 / 10</td>
     <td>8</td>
     </tr><tr>
+    <td>Boku no Hero Academia</td>
+    <td>TV</td>
+    <td>13 / 13</td>
+    <td>8</td>
+    </tr><tr>
     <td>Mob Psycho 100</td>
     <td>TV</td>
     <td>12 / 12</td>
+    <td>8</td>
+    </tr><tr>
+    <td>Sakamoto desu ga?</td>
+    <td>TV</td>
+    <td>0 / 12</td>
     <td>8</td>
     </tr><tr>
     <td>Handa-kun</td>
@@ -1568,4 +1525,12 @@ background-color: #ffffff;
     <td>TV</td>
     <td>11 / 11</td>
     <td>7</td>
+    </tr></table><table class="one">
+    <div class="container">
+    urahara_kisukee'S EXCLUSIVE ANIME LIST :
+    </div><tr>
+    <th>Anime Title</th>
+    <th>Type</th>
+    <th>Episodes</th>
+    <th>Score</th>
     </tr></table>
