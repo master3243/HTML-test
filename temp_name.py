@@ -112,7 +112,7 @@ background-color: #ffffff;
     <td>{}</td>
     </tr>'''
 
-    fo = open('result2.html', 'w', encoding='utf-8')
+    fo = open('result3.html', 'w', encoding='utf-8')
     fo.write(before)
 
     fo.write(table_start.format('''
