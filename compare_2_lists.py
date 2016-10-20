@@ -24,7 +24,7 @@ def start():
     # decide on a file name. if result0.html exists then increase suffix until no file has same name
     suffix = 0
     file_name = 'result{}.html'
-    while not os.path.isfile(file_name.format(suffix)):
+    while os.path.isfile(file_name.format(suffix)):
         suffix += 1
     file_name = file_name.format(suffix)
 
