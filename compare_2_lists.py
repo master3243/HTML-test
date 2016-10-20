@@ -28,10 +28,14 @@ def start():
         suffix += 1
 
     write_html(shared, user_a_exclusive, user_b_exclusive, file_name)
-    fo = open('index.html', 'w', encoding='utf-8')
-    fo.write('http://htmlpreview.github.io/?https://github.com/master3243/HTML-test/master/' +
-             file_name.format(suffix))
-    os.system("start " + 'index.html')
+
+    # make commit
+    subprocess.call(['git', 'add', '.'], shell=True)
+    subprocess.call(['git', 'commit', '-m', '"add {}"'.format(file_name.format(suffix))], shell=True)
+    subprocess.call(['git', 'push', '-u', 'origin', 'master'], shell=True)
+    # print link
+    print('http://htmlpreview.github.io/?https://github.com/master3243/HTML-test/master/' +
+          file_name.format(suffix))
 
 
 def get_shared(user_a, list_b_anime):
@@ -96,11 +100,7 @@ background-color: #ffffff;
 '''
     table_start = '''<table class="one">
     <div class="container">
-    <p>Made by: Master3243</p>
-    <p> </p>
-    <p>USER A: {}</p>
-    <p>USER B: {}</p>
-    <p>SHARED ANIME LIST :</p>
+    {}
     </div><tr>
     <th>Anime Title</th>
     <th>Type</th>
@@ -118,7 +118,12 @@ background-color: #ffffff;
     fo = open(file_name, 'w', encoding='utf-8')
     fo.write(before)
 
-    fo.write(table_start.format(e1.get(), e2.get()))
+    fo.write(table_start.format('''<p>Made by: Master3243</p>
+    <p> </p>
+    <p>USER A: {}</p>
+    <p>USER B: {}</p>
+    <p>SHARED ANIME LIST :</p>
+    '''.format(e1.get(), e2.get())))
     for anime in shared:
         cell1 = anime['series_title']
         cell2 = mal.get_series_type(anime['series_type'])
@@ -127,7 +132,7 @@ background-color: #ffffff;
         fo.write(single_row.format(cell1, cell2, cell3, cell4))
     fo.write(table_end)
 
-    fo.write(table_start.format(e1.get() + '\'S EXCLUSIVE ANIME LIST :'))
+    fo.write(table_start.format('</p>' + e1.get() + '\'S EXCLUSIVE ANIME LIST :</p>'))
     for anime in user_a_list:
         cell1 = anime['series_title']
         cell2 = mal.get_series_type(anime['series_type'])
@@ -136,7 +141,7 @@ background-color: #ffffff;
         fo.write(single_row.format(cell1, cell2, cell3, cell4))
     fo.write(table_end)
 
-    fo.write(table_start.format(e2.get() + '\'S EXCLUSIVE ANIME LIST :'))
+    fo.write(table_start.format('<p>' + e2.get() + '\'S EXCLUSIVE ANIME LIST :</p>'))
     for anime in user_b_list:
         cell1 = anime['series_title']
         cell2 = mal.get_series_type(anime['series_type'])
@@ -147,10 +152,6 @@ background-color: #ffffff;
 
 
 if __name__ == '__main__':
-    subprocess.call(['git', 'add', '.'], shell=True)
-    subprocess.call(['git', 'commit', '-m', '"new_results.html"'], shell=True)
-    subprocess.call(['git', 'push', '-u', 'origin', 'master'], shell=True)
-
     master = Tk()
     Label(master, text="Account A").grid(row=0)
     Label(master, text="Account B").grid(row=1)
