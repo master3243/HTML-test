@@ -27,11 +27,11 @@ def start():
     while not os.path.isfile(file_name.format(suffix)):
         suffix += 1
 
-    write_html(shared, user_a_exclusive, user_b_exclusive, file_name)
+    write_html(shared, user_a_exclusive, user_b_exclusive, file_name.format(suffix))
 
     # make commit
     subprocess.call(['git', 'add', '.'], shell=True)
-    subprocess.call(['git', 'commit', '-m', '"add {}"'.format(file_name.format(suffix))], shell=True)
+    subprocess.call(['git', 'commit', '-m', 'add {}' + file_name.format(suffix)], shell=True)
     subprocess.call(['git', 'push', '-u', 'origin', 'master'], shell=True)
     # print link
     print('http://htmlpreview.github.io/?https://github.com/master3243/HTML-test/master/' +
