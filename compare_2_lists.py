@@ -2,19 +2,10 @@ from tkinter import *
 import quick_projects.one_shots.mal_voice_acter.mal_api as mal
 import copy
 import os
+import subprocess
+
 
 def start():
-    print(e1.get())
-    print(e2.get())
-    if episode_cap.get():
-        print(e3.get())
-    else:
-        print("All episodes")
-    if allow_airing.get():
-        print("Currently Airing Allowed")
-    else:
-        print("Currently Airing Not Allowed")
-
     user_a = mal.read_animelist(e1.get())
     user_a = mal.filter_out_plan_to_watch(user_a)
     user_b = mal.read_animelist(e2.get())
@@ -30,9 +21,17 @@ def start():
     user_a_exclusive = [x for x in user_a if x['series_title'] not in [y['series_title'] for y in user_b]]
     user_b_exclusive = [x for x in user_b if x['series_title'] not in [y['series_title'] for y in user_a]]
 
-    file_name = 'result3.html'
+    # decide on a file name. if result0.html exists then increase suffix until no file has same name
+    suffix = 0
+    file_name = 'result{}.html'
+    while not os.path.isfile(file_name.format(suffix)):
+        suffix += 1
+
     write_html(shared, user_a_exclusive, user_b_exclusive, file_name)
-    os.system("start "+ file_name)
+    fo = open('index.html', 'w', encoding='utf-8')
+    fo.write('http://htmlpreview.github.io/?https://github.com/master3243/HTML-test/master/' +
+             file_name.format(suffix))
+    os.system("start " + 'index.html')
 
 
 def get_shared(user_a, list_b_anime):
@@ -50,7 +49,6 @@ def get_shared(user_a, list_b_anime):
                         to_be_added[key] = list_a_anime[key] + connector + m[key]
                 result.append(to_be_added)
     return result
-
 
 
 def write_html(shared, user_a_list, user_b_list, file_name):
@@ -98,7 +96,11 @@ background-color: #ffffff;
 '''
     table_start = '''<table class="one">
     <div class="container">
-    {}
+    <p>Made by: Master3243</p>
+    <p> </p>
+    <p>USER A: {}</p>
+    <p>USER B: {}</p>
+    <p>SHARED ANIME LIST :</p>
     </div><tr>
     <th>Anime Title</th>
     <th>Type</th>
@@ -116,12 +118,7 @@ background-color: #ffffff;
     fo = open(file_name, 'w', encoding='utf-8')
     fo.write(before)
 
-    fo.write(table_start.format('''
-    <p>Made by: Master3243</p>
-    <p>-</p>
-    <p>USER A: {}</p>
-    <p>USER B: {}</p>
-    <p>SHARED ANIME LIST :</p>'''.format(e1.get(), e2.get())))
+    fo.write(table_start.format(e1.get(), e2.get()))
     for anime in shared:
         cell1 = anime['series_title']
         cell2 = mal.get_series_type(anime['series_type'])
@@ -147,18 +144,13 @@ background-color: #ffffff;
         cell4 = anime['my_score']
         fo.write(single_row.format(cell1, cell2, cell3, cell4))
     fo.write(table_end)
-    # fo.write(table_start)
-    # for anime in user_a_list:
-    #     fo.write(single_row.format(*anime))
-    # fo.write(table_end)
-    #
-    # fo.write(table_start)
-    # for anime in user_b_list:
-    #     fo.write(single_row.format(*anime))
-    # fo.write(table_end)
 
 
 if __name__ == '__main__':
+    subprocess.call(['git', 'add', '.'], shell=True)
+    subprocess.call(['git', 'commit', '-m', '"new_results.html"'], shell=True)
+    subprocess.call(['git', 'push', '-u', 'origin', 'master'], shell=True)
+
     master = Tk()
     Label(master, text="Account A").grid(row=0)
     Label(master, text="Account B").grid(row=1)
