@@ -26,16 +26,17 @@ def start():
     file_name = 'result{}.html'
     while not os.path.isfile(file_name.format(suffix)):
         suffix += 1
+    file_name = file_name.format(suffix)
 
-    write_html(shared, user_a_exclusive, user_b_exclusive, file_name.format(suffix))
+    write_html(shared, user_a_exclusive, user_b_exclusive, file_name)
 
     # make commit
     subprocess.call(['git', 'add', '.'], shell=True)
-    subprocess.call(['git', 'commit', '-m', 'add {}' + file_name.format(suffix)], shell=True)
+    subprocess.call(['git', 'commit', '-m', 'add ' + file_name], shell=True)
     subprocess.call(['git', 'push', '-u', 'origin', 'master'], shell=True)
     # print link
     print('http://htmlpreview.github.io/?https://github.com/master3243/HTML-test/master/' +
-          file_name.format(suffix))
+          file_name)
 
 
 def get_shared(user_a, list_b_anime):
